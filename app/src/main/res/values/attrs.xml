@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="JDNumberPicker">
+        <attr name="jdSelectionDividerHeight" format="reference|dimension" />
+        <attr name="jdSelectionDividersDistance" format="reference|dimension" />
+        <attr name="jdSelectDividersColor" format="reference|color" />
+        <attr name="jdSelectTextColor" format="reference|color" />
+        <attr name="jdSelectTextSize" format="reference|dimension" />
+    </declare-styleable>
+    <declare-styleable name="JDDatePicker">
+        <attr name="jdStartYear" format="integer" />
+        <attr name="jdEndYear" format="integer" />
+        <attr name="jdMinDate" format="string" />
+        <attr name="jdMaxDate" format="string" />
+    </declare-styleable>
+
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <com.joe.datetimepicker.JDNumberPicker
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/yearPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp" />
+    <com.joe.datetimepicker.JDNumberPicker
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/monthPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp" />
+    <com.joe.datetimepicker.JDNumberPicker
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/dayPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp" />
+</LinearLayout>

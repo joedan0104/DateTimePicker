@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color name="numberpicker_line">#33b5e5</color>
+    <color name="numberpicker_text_line">#000000</color>
+    <color name="numberpicker_split_line">#dcdcdc</color>
+</resources>

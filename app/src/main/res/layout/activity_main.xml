@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始时间" />
+
+    <EditText
+        android:id="@+id/inputDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:inputType="none" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="结束时间" />
+
+    <EditText
+        android:id="@+id/inputDate2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:inputType="none" />
+
+    <com.joe.datetimepicker.JDNumberPicker
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/yearPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:jdSelectTextSize="20sp"
+        android:visibility="gone">
+    </com.joe.datetimepicker.JDNumberPicker>
+    <com.joe.datetimepicker.JDDatePicker
+        android:id="@+id/datepicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.joe.datetimepicker.JDTimePicker
+        android:id="@+id/timepicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
